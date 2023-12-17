@@ -1,0 +1,93 @@
+Problem 1
+
+                  Deign a 18 in. x 18 in. square column to carry an ultimate Axial load of 400 kips and an ultimate moment of 300 ft-kips. fc' = 6 ksi and fy = 60 ksi. Use an effective cover of 3 in. for longitudinal reinforcement. Estimate the the reinforcement ratio by averaging values from two graphs with Gamma of 0.6 and 0.75.
+
+Problem 2
+
+                  Deign a rectangular column (b =15 in. x h= 20 in. ) to carry an ultimate Axial load of 300 kips and an ultimate moment of 320 ft-kips. fc' = 6 ksi and fy = 60 ksi. Use an effective cover of 2.5 in. for longitudinal reinforcement. 
+
+
+Design of Columns:
+- Short Column Failure by "materials"
+Rectangular Column: Uniaxial Bending
+	(Pu,Mu) or (Pu, e)
+Construct (Pu, Mu) Diagram
+	Use graphs (pu, Mu) Diagrams)
+	For analysis and Design
+	Longitudinal Reinforcement; Ties
+	h - in the bending direction
+	b - in perpendicular direction
+	Need to check for both Mx and My, If Mx is around My => bi-axial bending
+	- Bars around perimeter, and ties
+
+	- Ties #3 or #4 bars, clear cover: 1.5 in.
+
+Given: From Analysis, Pu and Mu, for both Directions. x ,y
+Architectural Considerations: b, h,
+fc', fy
+need to estimate longitudinal and tie reinforcement
+
+If b and h and not known,
+	assume h/b is around 1.0 to 1.5 - trial and adjusting
+b,h, Mu, Pu, fc', fy - known
+Assume: gamma between 0.6 and 0.9
+	Initial say gamma = 0.75
+	gamma = (h- 2*effective cover)/h
+	Compute: pu/bh and Mu/bh2, e/h using graph: estimate p (ro)
+	
+
+Obtain: p_total using design charts
+As total = pt * bh
+Choose, size, number of bars, location
+bar size: #6 to #18
+ACI Code Provisions: phi: 
+Puo = .... * Puo *
+
+Longitudinal Reinforcement:
+	pg >= 0.01 or Astotal = 0.01 bh
+	   <= 0.08
+To avoid reinforcement congestion, ro is normally less than 0.03
+Interior columns: pg is around 0.01
+Clear Cover: 1.5 in. Effective cover: 2.5 to 4 in.
+
+4. Tie Reinforcement with 135 degrees angle closed tier
+	
+Specifications for over-lap length
+
+Detailing - extremely important - for abnormal loading (Earthquake, )
+Size and spacing of Tie Reinforcement 
+If longitudinal bars are #10 or smaller: Use #2 or #4 ties
+If >= #11 Use #4 ties
+
+Spacing: S cannot be greater than 16 db diameter of longitudinal bar
+	Cannot be greater han 48 db diamater of tie
+	Cannot be greater than least dimension of the column
+Ties provide shear strength for columns
+
+Example 1: Design a 12 x 20 in. column with ties to ssupport: Pd = 100k, Pl=100k, Mo = 30 ft-k and Ml = 70 ft-k, fc' = 4kssi, fy = 60 ksi
+b = 12 in., d = 20 in.
+
+
+Pu = 280 k, Mu = 1.2x30 + 1.6*70 = 148 ft-k
+e = 148*12/(280) = 6.4 in, 12 since 12 x 20 column
+e/h = 6.4/ 20  = 0.32
+Assume reinforcement in compression and tension side only: gamma = 0.75
+ 
+fc' = 4ksi, fy = 60 ksi, gamma = 0.75
+Choose appropriate chart:
+Mu/bh2 = 148*12/12*20^2 = 0.37
+Using chart or graph: pg is around 0.01
+As total = 0.01*12*20 = 2.4 in2
+Provide 4-#7 bars, As total = 4*0.6 = 2.4 in2 
+
+Design of Ties:
+Try #3 ties not greater than 16db of long bar = 14 in.
+	48 db of ties: 18 in
+	b or h 12 in
+Provide # 3 ties @ 12 in. c/c
+
+Effective cover < 2.5"?
+11111                                                                                                                                                                                                                                                                                                                                                                                                                                gamma = 0.75
+= 20-2*2.5/20 = 0.75
+if we have gamma for 0.72, interpoalte
+
